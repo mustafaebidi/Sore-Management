@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <div>Store Management</div>
+            </div>
+
+            <div class="container">
+                <div class="inputs">
+                    <input type="text" id="title" placeholder="Title">
+                    <div class="attr">
+                        <input type="number" id="price" placeholder="Price">
+                        <input type="text" id="category" placeholder="Category">
+                        <input type="number" id="count" placeholder="Count">
+                    </div>
+                    <div class="toggle">Create</div>
+                    <input type="text" id="search" placeholder="Search">
+                    <div class="seach-category">
+                        <div>Seach By Name</div>
+                        <div>Seach By Category</div>
+                    </div>
+                    <div class="delete-all" onclick="deleteAllElement()">
+                        <div>Delele all</div>
+                    </div>
+                    <div class="all-selected">
+                        <div class="selected">Delete All Selected</div>
+                    </div>
+                </div>
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Select</th>
+                                <th>id</th>
+                                <th>Title</th>
+                                <th>Price</th>
+                                <th>Category</th>
+                                <th>Update</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
