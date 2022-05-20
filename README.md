@@ -1,3 +1,3 @@
 link live server
 
-https://store-management.netlify.app
+https://s-tote-management.netlify.app
